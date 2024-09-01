@@ -1,0 +1,22 @@
+/* NavBar.module.css */
+.navbar {
+    background-color: rgb(39, 94, 113);
+    padding: 20px;
+    font: 16px/1.5 'Helvetica Neue', Arial, sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand,
+.link {
+    color: #f1faee;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.link:hover,
+.brand:hover {
+    color: #000000;
+}

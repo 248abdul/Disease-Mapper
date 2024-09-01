@@ -1,0 +1,48 @@
+/* Report.module.css */
+.report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f2f5;
+    color: #333;
+    min-height: 100vh;
+    font: 16px/1.5 'Helvetica Neue', Arial, sans-serif;
+}
+
+.inputLabel {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.input {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+}
+
+.inputError {
+    border-color: #d32f2f; /* Red border for error */
+}
+
+.errorMessage {
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #007bff; /* Vibrant button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px; /* Rounded corners for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for button interaction */
+    font-weight: bold; /* Bold font for the button */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade on hover for interaction feedback */
+}

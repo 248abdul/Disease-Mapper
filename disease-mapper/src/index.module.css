@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5; /* Lighter background for a modern look */
+    color: #333; /* Dark gray text for better readability */
+    align-items: center;
+    min-height: 100vh;
+    font: 16px/1.5 'Helvetica Neue', Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
